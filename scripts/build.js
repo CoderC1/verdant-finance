@@ -1,0 +1,1 @@
+import {cpSync,mkdirSync} from 'node:fs';mkdirSync('dist/src',{recursive:true});cpSync('index.html','dist/index.html');cpSync('src/finance.js','dist/src/finance.js');console.log('GitHub Pages artifact ready: dist/');
